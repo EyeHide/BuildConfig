@@ -25,7 +25,7 @@ Name[ms]=Spinner
 Name[he]=שבשבת טעינה
 Name[fa]=چرخنده
 Name[fi]=Spinneri
-Name=Spinner
+Name=hideos-spinner
 Description=A theme designed by jimmac that features a simple spinner.
 ModuleName=two-step
 
