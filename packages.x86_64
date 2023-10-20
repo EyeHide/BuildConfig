@@ -10,6 +10,7 @@ brltty
 broadcom-wl
 btrfs-progs
 clonezilla
+cups
 cloud-init
 cryptsetup
 darkhttpd
@@ -130,3 +131,9 @@ zsh
 gnome
 plymouth
 aquamares
+ipp-usb
+sane
+networkmanager
+bluez
+power-profiles-daemon
+
