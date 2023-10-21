@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Find the "arch" directory under /run/media/
+arch_dir=$(find /run/media/ -type d -name "arch" -print -quit)
+
+# Check if the directory was found
+if [ -z "$arch_dir" ]; then
+    echo "Directory 'arch' not found under /run/media/"
+else
+    # Create the destination directory if it does not exist
+    mkdir -p /run/archiso/bootmnt/arch
+    
+    # Copy the contents of the "arch" directory to the destination
+    cp -r "$arch_dir"/* /run/archiso/bootmnt/arch
+    
+    echo "Arch directory copied to /run/archiso/bootmnt/"
+fi
