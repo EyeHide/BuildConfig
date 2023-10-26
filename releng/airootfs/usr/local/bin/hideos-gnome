@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Rice gnome up
-gsettings set org.gnome.shell welcome-dialog-last-shown-version $(gnome-shell --version | grep -oP '\d+\.\d+') # disable the welcome screen
 
+gsettings set org.gnome.shell welcome-dialog-last-shown-version $(gnome-shell --version | grep -oP '\d+\.\d+') # disable the welcome screen
 
 # Functions
 set_gnome() {
@@ -13,7 +13,7 @@ set_gnome() {
     gsettings set org.gnome.desktop.interface clock-show-seconds false
     gsettings set org.gnome.desktop.interface clock-show-weekday false
     # --- WINDOW BUTTONS
-    gsettings set org.gnome.desktop.vm.preferences button-layout "appmenu:minimize,maximize,close"
+    gsettings set org.gnome.desktop.wm.preferences button-layout "appmenu:minimize,maximize,close"
 }
 
 
