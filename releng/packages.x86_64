@@ -128,7 +128,6 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-gnome-desktop
 plymouth
 calamares
 ipp-usb
@@ -136,3 +135,4 @@ sane
 networkmanager
 bluez
 power-profiles-daemon
+gnome
