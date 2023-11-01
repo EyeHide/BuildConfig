@@ -1,0 +1,10 @@
+[Unit]
+Description=Sync HideOS backgrounds
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/hideos-syncbgs
+
+[Install]
+WantedBy=network-online.target

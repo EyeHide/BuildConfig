@@ -24,4 +24,5 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/usr/local/bin/hideos-movefirmware"]="0:0:755"
   ["/usr/local/bin/hideos-gnome"]="0:0:755"
+  ["/usr/local/bin/hideos-syncbgs"]="0:0:755"
 )
