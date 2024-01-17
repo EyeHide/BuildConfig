@@ -1,3 +1,0 @@
-#!/bin/bash
-
-sudo curl https://raw.githubusercontent.com/EyeHide/HideBackgrounds/main/applybgs.sh | sh
