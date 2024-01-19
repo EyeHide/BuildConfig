@@ -6,6 +6,12 @@ gsettings set org.gnome.shell welcome-dialog-last-shown-version $(gnome-shell --
 
 # Functions
 set_gnome() {
+    # --- FONT
+    gsettings set org.gnome.desktop.interface font-antialiasing "rgba"
+    gsettings set org.gnome.desktop.interface font-name "Inter 11"
+    gsettings set org.gnome.desktop.interface document-font-name "Inter 11"
+    gsettings set org.gnome.desktop.interface monospace-font-name "JetBrains Mono 10"
+    gsettings set org.gnome.desktop.wm.preferences titlebar-font "Inter Bold 11"
     # --- THEME
     gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
     # --- TOPBAR CLOCK
